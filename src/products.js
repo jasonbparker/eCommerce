@@ -2,6 +2,7 @@ import product1 from "./assets/iphone.png";
 import product2 from "./assets/camera.png";
 import product3 from "./assets/laptop.png";
 import product4 from "./assets/shirt.png";
+import product5 from "./assets/5.png";
 
 export const PRODUCTS = [
   {
@@ -27,5 +28,11 @@ export const PRODUCTS = [
     productName: "shirt",
     price: 99.0,
     productImage: product4,
+  },
+  {
+    id: 4,
+    productName: "led",
+    price: 79.0,
+    productImage: product5,
   },
 ];
